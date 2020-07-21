@@ -1,0 +1,24 @@
+{
+  "name": "lizus/php-error",
+  "description": "php error class",
+  "type": "library",
+  "require": {
+    "php": ">=7.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lizus",
+      "email": "lizus.com@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload":{
+    "psr-4":{
+      "Lizus\\Error\\":"src/class/"
+    },
+    "files":[
+      "src/function/is_error.php"
+    ]
+  }
+}
